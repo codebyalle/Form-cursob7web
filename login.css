@@ -1,0 +1,43 @@
+* {
+    font-family: 'Roboto Serif', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/originals/71/31/77/713177e7b221e3d2570237268fd19c6e.gif);
+    color: aliceblue;
+}
+
+h1 {
+    margin: 15px;
+}
+
+form {
+    margin-top: 70px;
+}
+
+input.img {
+    margin: 10px;
+    padding: 10px;
+}
+
+.button {
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid rgb(84, 169, 238);
+    border-radius: 10px;
+    background-color: rgb(34, 103, 230);
+    color: aliceblue;
+}
+
+.button:hover {
+    background-color: rgb(7, 67, 230);
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-image: url(https://img-9gag-fun.9cache.com/photo/aVxQD22_460s.jpg);
+    }
+}
